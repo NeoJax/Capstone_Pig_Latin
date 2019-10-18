@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capstone_Pig_Latin", "Capstone_Pig_Latin\Capstone_Pig_Latin.csproj", "{B2CFEBC9-21B2-4C4C-B228-CABE87DBA38E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2CFEBC9-21B2-4C4C-B228-CABE87DBA38E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2CFEBC9-21B2-4C4C-B228-CABE87DBA38E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2CFEBC9-21B2-4C4C-B228-CABE87DBA38E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2CFEBC9-21B2-4C4C-B228-CABE87DBA38E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
