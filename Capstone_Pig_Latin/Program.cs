@@ -43,7 +43,7 @@ namespace Capstone_Pig_Latin
             string vowelPattern1 = @"^[AEIOUaeiou]";
             string vowelPattern2 = @"[AEIOUaeiou]";
             string consonantPattern = @"^[BCDFGHJKLMNPQRSTVWXYZbcdfghjklmnpqrstvwxyz]";
-            StringBuilder modifiedWord = new StringBuilder(inputWord, inputWord.Length + 2);
+            string consonantReplace = "";
             Regex findVowel = new Regex(vowelPattern2);
             Match matchVowel = findVowel.Match(inputWord);
             int matchIndex = matchVowel.Index;
@@ -53,7 +53,9 @@ namespace Capstone_Pig_Latin
             }
             else if (Regex.IsMatch(inputWord, consonantPattern))
             {
+                consonantReplace = inputWord.Substring(0, matchIndex);
                 inputWord = inputWord.Remove(0, matchIndex);
+                inputWord += consonantReplace + "ay";
             }
             return inputWord;
         }
