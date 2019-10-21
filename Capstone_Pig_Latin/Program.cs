@@ -40,7 +40,7 @@ namespace Capstone_Pig_Latin
         public static void PigLatinFind(string inputString)
         {
             // This pattern determines if there is a symbol in the word other than a single quote
-            string symbolPattern = @"[^A-z,']";
+            string symbolPattern = @"[^A-Za-z,']";
 
             // I split up the string so I can modify each word
             string[] inputWords = inputString.Split(" ");
