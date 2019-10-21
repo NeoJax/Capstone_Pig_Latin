@@ -68,7 +68,7 @@ namespace Capstone_Pig_Latin
         // This method translates from English to Pig Latin
         public static string PigLatin(string inputWord)
         {
-            // Two patterns for finding vowels the first one checks the start
+            // Two patterns for finding vowels the first one checks the start of the word
             string vowelPattern1 = @"^[AEIOUaeiou]";
 
             // The second pattern is for finding the first vowel
